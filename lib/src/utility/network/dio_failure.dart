@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 
-import 'utility.dart';
+import '../utility.dart';
 
 class DioFailure implements Exception {
   DioFailure(this.exception);

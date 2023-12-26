@@ -1,6 +1,7 @@
 import 'package:fpdart/fpdart.dart';
 
 typedef FailEither<T> = Either<Failure, T>;
+typedef FutureFail<T> = Future<Either<Failure, T>>;
 
 class Failure {
   const Failure(this.message,
